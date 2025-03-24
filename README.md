@@ -28,6 +28,7 @@ Integrations into editors vary but here is an example config for using the parse
       parser_config.mcore = {
         install_info = {
           url = 'https://github.com/wmuth/tree-sitter-mcore',
+          branch = 'main',
           files = { 'src/parser.c', 'src/scanner.c' },
           requires_generate_from_grammar = false,
         },
